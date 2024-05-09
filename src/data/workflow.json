@@ -1,0 +1,34 @@
+[
+  {
+    "img": "/assets/wkflow/icon-tflow.svg",
+    "url": "https://www.tensorflow.org/"
+  },
+  {
+    "img": "/assets/wkflow/icon-ts.svg",
+    "url": "https://www.typescriptlang.org/"
+  },
+  {
+    "img": "/assets/wkflow/icon-c++.svg",
+    "url": "https://cplusplus.com/"
+  },
+  {
+    "img": "/assets/wkflow/icon-cmake.svg",
+    "url": "https://cmake.org/"
+  },
+  {
+    "img": "/assets/wkflow/icon-fony.svg",
+    "url": "https://symfony.com/"
+  },
+  {
+    "img": "/assets/wkflow/icon-php.svg",
+    "url": "https://www.php.net/"
+  },
+  {
+    "img": "/assets/wkflow/icon-ql.svg",
+    "url": "https://graphql.org/"
+  },
+  {
+    "img": "/assets/wkflow/icon-vcpkg.svg",
+    "url": "https://vcpkg.io/"
+  }
+]

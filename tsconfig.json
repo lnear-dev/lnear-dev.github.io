@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+      "module": "esnext",
+      "target": "esnext",
+      "lib": ["es2017", "esnext", "dom", "dom.iterable"],
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "outDir": "./types",
+      "strict": true,
+      "noUnusedLocals": true,
+      "resolveJsonModule": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "useDefineForClassFields": false,
+      "isolatedModules": true,
+      "types": [
+          "vite-plugin-pwa/client",
+          "vite/client",
+          // "./data/index.ts",
+      ],
+      
+      "paths": {
+        "@/*": ["./src/*"],
+        // "@css/*": ["./resources/css/*"],
+        "@media/*": ["./src/assets/*"],
+        "@img/*": ["./src/assets/img/*"],
+        "@icons/*": ["./src/assets/icons/*"],
+        "@fonts/*": ["./src/assets/fonts/*"],
+        "@components/*": ["./src/components/*"],
+        "@pages/*": ["./src/pages/*"],
+      },
+  },
+  "include": ["src/**/*.ts", "router.d.ts", "global.ts"],
+  "exclude": ["node_modules"]
+}

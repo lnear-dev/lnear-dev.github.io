@@ -1,0 +1,68 @@
+{
+  "seg1": [
+    {
+      "img": "/assets/prjx/clx_JRUN.svg",
+      "label": "Prompt"
+    },
+    {
+      "img": "/assets/prjx/clx_JRUN.svg",
+      "label": "Prompt"
+    },
+    {
+      "img": "/assets/prjx/clx_JRUN.svg",
+      "label": "Prompt"
+    }
+  ],
+  "seg2": [
+    {
+      "logo": "/assets/prjx/clx_LEND.svg",
+      "href": "lend.lnear.dev",
+      "name": "lend"
+    },
+    {
+      "logo": "/assets/prjx/cl_LAME.svg",
+      "href": "lamework.dev",
+      "name": "lamework"
+    },
+    {
+      "logo": "/assets/prjx/clx_LIT.svg",
+      "href": "litty.lnear.dev",
+      "name": "litty"
+    }
+   
+  ],
+  "seg3": [
+    {
+      "img": "/assets/wkflow/icon-tflow.svg",
+      "href": "https://www.tensorflow.org/"
+    },
+    {
+      "img": "/assets/wkflow/icon-ts.svg",
+      "href": "https://www.typescriptlang.org/"
+    },
+    {
+      "img": "/assets/wkflow/icon-c++.svg",
+      "href": "https://cplusplus.com/"
+    },
+    {
+      "img": "/assets/wkflow/icon-cmake.svg",
+      "href": "https://cmake.org/"
+    },
+    {
+      "img": "/assets/wkflow/icon-fony.svg",
+      "href": "https://symfony.com/"
+    },
+    {
+      "img": "/assets/wkflow/icon-php.svg",
+      "href": "https://www.php.net/"
+    },
+    {
+      "img": "/assets/wkflow/icon-ql.svg",
+      "href": "https://graphql.org/"
+    },
+    {
+      "img": "/assets/wkflow/icon-vcpkg.svg",
+      "href": "https://vcpkg.io/"
+    }
+  ]
+}

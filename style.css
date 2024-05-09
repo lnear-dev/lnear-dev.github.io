@@ -1,0 +1,22 @@
+:not(:defined) {
+  visibility: hidden;
+}
+* {
+    background-color: #f9f9f9;
+  
+    font-family: 'Inter', sans-serif;
+    font-synthesis: position;
+    text-size-adjust: none;
+    text-rendering: auto;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  :root {
+      --ponc: #00B8FF;
+      --sec: #D6D6D6;
+      --tert: #353535;
+      --fill: #F9F9F9;
+  }
