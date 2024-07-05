@@ -1,17 +1,18 @@
 {
-  "name": "lnear.dev",
-  "version": "0.0.1",
-  "private": true,
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite --open",
-    "build": "tsc && vite build",
-    "start": "npm run dev"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "5.4.5",
-    "vite": "5.2.10"
-  }
+    "name": "lnear.dev2",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro check && astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "astro": "^4.11.5",
+        "common": "workspace:*",
+        "@astrojs/check": "^0.7.0",
+        "typescript": "^5.5.3"
+    }
 }

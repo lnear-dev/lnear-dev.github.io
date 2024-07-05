@@ -1,17 +1,3 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@resources/*": [
-        "../../resources/*"
-      ],
-    }
-  },
-  "include": [
-    "src/**/*.ts",
-    "router.d.ts",
-    "global.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "extends": "astro/tsconfigs/strict"
 }
