@@ -4,40 +4,14 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev-server": "vite --open",
-    "dev": "npm run dev-server",
-    "dev-task": "vite",
-    "deploy": " npx @azure/static-web-apps-cli login --no-use-keychain && npx @azure/static-web-apps-cli deploy",
+    "dev": "vite --open",
     "build": "tsc && vite build",
-    "start": "npm run dev",
-    "start-remote": "vite --host"
+    "start": "npm run dev"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@microsoft/fast-components": "^2.30.6",
-    "@microsoft/fast-element": "1.13.0",
-    "@microsoft/fast-foundation": "2.49.6",
-    "@microsoft/fast-router": "0.4.9",
-    "@thepassle/app-tools": "^0.9.0",
-    "urlpattern-polyfill": "10.0.0",
-    "workbox-build": "7.1.0",
-    "workbox-core": "7.1.0",
-    "workbox-precaching": "7.1.0"
-  },
   "devDependencies": {
     "typescript": "5.4.5",
-    "vite": "5.2.10",
-    "vite-plugin-pwa": "0.19.8"
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "semi": true,
-    "singleQuote": true,
-    "quoteProps": "consistent",
-    "trailingComma": "es5",
-    "endOfLine": "crlf",
-    "bracketSpacing": true
+    "vite": "5.2.10"
   }
 }
